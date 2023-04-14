@@ -15,7 +15,7 @@ const Hero = (props) => (
         <SectionText>
           Currently looking for internship & part time job opportunities.
         </SectionText>
-        <Button onClick={props.handleClick}>My Resume</Button>
+        <Button onClick={() => { window.location.href = "https://drive.google.com/file/d/1J-ujodnWIm2686XLjAQ9fKvjyd-kwP0U/view?usp=share_link"; } }>My Resume</Button>
       </LeftSection>
     </Section>
   </>
